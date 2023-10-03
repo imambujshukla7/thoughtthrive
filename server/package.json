@@ -1,0 +1,30 @@
+{
+  "name": "thoughtthrive-server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.7"
+    
+  },
+  "scripts": {
+    "start": "node server.js",
+   
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "eslintConfig": {
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "ecmaVersion": 2018,
+      "sourceType": "module"
+    },
+    "rules": {
+     
+    }
+  },
+  "devDependencies": {
+    
+  }
+}
